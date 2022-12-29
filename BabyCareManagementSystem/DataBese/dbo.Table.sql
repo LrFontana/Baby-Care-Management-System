@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[BabyTable]
+(
+	[BCode] INT NOT NULL PRIMARY KEY IDENTITY(1005, 1), 
+    [BName] NVARCHAR(50) NOT NULL, 
+    [BSex] NVARCHAR(15) NOT NULL, 
+    [BReligion] NVARCHAR(50) NOT NULL, 
+    [BDate] DATE NOT NULL, 
+    [BParent] INT NOT NULL
+)
